@@ -1,0 +1,12 @@
+twitter:
+  bearer-token: ${TWITTER_BEARER_TOKEN:woops}
+  base-url: https://api.twitter.com/2/tweets/search/stream
+
+logging:
+  level:
+    root: INFO
+
+spring:
+  jackson:
+    serialization:
+      wrap-root-value: true
